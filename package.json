@@ -2,7 +2,6 @@
   "name": "@carnesen/bitcoin-rpc-href",
   "description": "A Node.js library for reading the bitcoin RPC configuration",
   "version": "0.0.0",
-  "private": true,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "engines": {
