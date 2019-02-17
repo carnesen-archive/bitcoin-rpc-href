@@ -6,11 +6,12 @@ import {
   toAbsolute,
   getDefaultConfig,
   getChainName,
+  DEFAULT_CONFIG_FILE_PATH,
 } from '@carnesen/bitcoin-config';
 import { parseHost } from './parse-host';
 import { CodedError } from '@carnesen/coded-error';
 
-export function readRpcHref(configFilePath: string) {
+export function readRpcHref(configFilePath = DEFAULT_CONFIG_FILE_PATH) {
   const config = readConfigFiles(configFilePath);
   const chainName = getChainName(config);
   const defaultConfig = getDefaultConfig(chainName);

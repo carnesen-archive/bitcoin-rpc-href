@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
+    "build:watch": "tsc --watch",
     "build:clean": "rimraf lib && npm run build",
     "lint": "tslint --project tsconfig.build.json",
     "lint:fix": "npm run lint -- --fix",
