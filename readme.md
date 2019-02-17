@@ -1,4 +1,4 @@
-# @carnesen/bitcoin-rpc-href [![npm version](https://badge.fury.io/js/%40carnesen%2Fbitcoin-rpc-href.svg)](https://badge.fury.io/js/%40carnesen%2Fbitcoin-rpc-href) [![Build Status](https://travis-ci.org/carnesen/bitcoin-rpc-href.svg?branch=master)](https://travis-ci.org/carnesen/bitcoin-rpc-href)
+# @carnesen/bitcoin-rpc-href [![npm version](https://badge.fury.io/js/%40carnesen%2Fbitcoin-rpc-href.svg)](https://badge.fury.io/js/%40carnesen%2Fbitcoin-rpc-href) [![Build Status](https://travis-ci.com/carnesen/bitcoin-rpc-href.svg?branch=master)](https://travis-ci.com/carnesen/bitcoin-rpc-href)
 
 A Node.js client for bitcoin's remote procedure call (RPC) interface. This package includes runtime JavaScript files suitable for Node.js >=8 as well as the corresponding TypeScript type declarations.
 
