@@ -20,7 +20,8 @@
     "postversion": "npm publish"
   },
   "dependencies": {
-    "@carnesen/bitcoin-config": "0.0.3"
+    "@carnesen/bitcoin-config": "0.0.3",
+    "@carnesen/coded-error": "0.1.0"
   },
   "devDependencies": {
     "@carnesen/tsconfig": "0.1.0",
